@@ -16,7 +16,7 @@ class App extends Component {
                         <Route path={'/'} exact component={Home}/>
                         <Route path={'/players'} component={Players}/>
                         <Route path={'/teams'} component={Teams}/>
-                        <Route render={() => <h1 className={'text-center'}>Four oh Four. </h1>}/>
+                        <Route render={() => <h1 className={'text-center'}>Four oh Four. </h1>}/> (//Default 404 route)
                     </Switch>
                 </div>
             </Router>
